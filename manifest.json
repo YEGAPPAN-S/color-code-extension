@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Color Code Copier",
+  "version": "1.0",
+  "description": "Copy color codes with one click",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["clipboardWrite"]
+}

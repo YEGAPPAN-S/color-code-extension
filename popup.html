@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Color Code Copier</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 10px; width: 600px; background-color: #fff; color: #0f0f0f; }
+        .color-section { margin-bottom: 20px; }
+        .color-title { font-size: 18px; font-weight: bold; margin-bottom: 5px; text-transform: uppercase; }
+        .color-box { display: flex; flex-wrap: wrap; gap: 5px; }
+        .color { width: 50px; height: 50px; cursor: pointer; border-radius: 5px; border: 1px solid #000; }
+        .color-label { font-size: 12px; text-align: center; margin-top: 5px; }
+        .notification { position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); background: #222; color: white; padding: 10px; border-radius: 5px; display: none; }
+    </style>
+</head>
+<body>
+    <h1>Cartrabbit Site Colors</h1>
+    <div id="colorContainer"></div>
+    <div id="notification" class="notification">Copied!</div>
+    <script src="popup.js"></script>
+</body>
+</html>
